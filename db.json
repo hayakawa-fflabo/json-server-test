@@ -1,11 +1,24 @@
 {
-  "posts": [
+  "data": [
     {
       "id": 1,
-      "title": "hello"
+      "name": "TEST1"
+    },
+    {
+      "id": 2,
+      "name": "TEST2"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "history": [
+    {
+      "id": 202201,
+      "name": "TEST1",
+      "price": 100
+    },
+    {
+      "id": 202202,
+      "name": "TEST2",
+      "price": 200
+    }
+  ]
 }
