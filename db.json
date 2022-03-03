@@ -1,64 +1,24 @@
 {
-	"data": [
-		{
-			"id": 1,
-			"name": "子"
-		},
-		{
-			"id": 2,
-			"name": "丑"
-		},
-		{
-			"id": 3,
-			"name": "寅"
-		},
-		{
-			"id": 4,
-			"name": "卯"
-		},
-		{
-			"id": 5,
-			"name": "辰"
-		},
-		{
-			"id": 6,
-			"name": "巳"
-		},
-		{
-			"id": 7,
-			"name": "午"
-		},
-		{
-			"id": 8,
-			"name": "未"
-		},
-		{
-			"id": 9,
-			"name": "申"
-		},
-		{
-			"id": 10,
-			"name": "酉"
-		},
-		{
-			"id": 11,
-			"name": "戌"
-		},
-		{
-			"id": 12,
-			"name": "亥"
-		}
-	],
-	"history": [
-		{
-			"id": 202201,
-			"name": "2022年1月分",
-			"price": 100000
-		},
-		{
-			"id": 202202,
-			"name": "2022年2月分",
-			"price": 200000
-		}
-	]
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "こんにちは！",
+      "author": "ytabuchi",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
